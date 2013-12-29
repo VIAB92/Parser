@@ -1,0 +1,3 @@
+http://rozetka.com.ua/notebooks/c80004/filter/preset=workteaching/
+http://rozetka.com.ua/notebooks/c80004/filter/preset=workteaching;producer=asus/
+http://rozetka.com.ua/all-tv/c80037/22202=plasma/

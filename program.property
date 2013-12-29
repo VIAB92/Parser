@@ -1,0 +1,7 @@
+#Sun Dec 29 17:59:42 EET 2013
+user=system
+connection=jdbc\:oracle\:thin\:@localhost\:1521\:XE
+name=.title
+password=Abacumov3723
+price=.price
+description=.tool_tip

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_45" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="com.netcracker.training.app4.entity.Product">
+    <void property="details">
+     <string>Диагональ экрана: 32&quot; Класс: Жидкокристаллический (LCD) Разрешение: 1920x1080 Диапазоны цифрового тюнера: DVB-C DVB-T2 Подробнее →</string>
+    </void>
+    <void property="name">
+     <string>Samsung UE-32F5300</string>
+    </void>
+    <void property="price">
+     <int>3535</int>
+    </void>
+    <void property="type">
+     <string>all-tv</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.netcracker.training.app4.entity.Product">
+    <void property="details">
+     <string>Диагональ экрана: 40&quot; Класс: Жидкокристаллический (LCD) Разрешение: 1920x1080 Диапазоны цифрового тюнера: DVB-S2 DVB-C DVB-T2 Подробнее →</string>
+    </void>
+    <void property="name">
+     <string>Samsung UE-40F6510+CAM-модуль T2 в подарок!</string>
+    </void>
+    <void property="price">
+     <int>8499</int>
+    </void>
+    <void property="type">
+     <string>all-tv</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.netcracker.training.app4.entity.Product">
+    <void property="details">
+     <string>Диагональ экрана: 32&quot; Класс: Жидкокристаллический (LCD) Разрешение: 1366x768 Диапазоны цифрового тюнера: DVB-S2 DVB-C DVB-T2 Подробнее →</string>
+    </void>
+    <void property="name">
+     <string>LG 32LN541U</string>
+    </void>
+    <void property="price">
+     <int>2749</int>
+    </void>
+    <void property="type">
+     <string>all-tv</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.netcracker.training.app4.entity.Product">
+    <void property="details">
+     <string>Диагональ экрана: 32&quot; Класс: Жидкокристаллический (LCD) Разрешение: 1920x1080 Диапазоны цифрового тюнера: DVB-S2 DVB-C DVB-T2 Подробнее →</string>
+    </void>
+    <void property="name">
+     <string>LG 32LA660V</string>
+    </void>
+    <void property="price">
+     <int>5899</int>
+    </void>
+    <void property="type">
+     <string>all-tv</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.netcracker.training.app4.entity.Product">
+    <void property="details">
+     <string>Диагональ экрана: 22&quot; Класс: Жидкокристаллический (LCD) Разрешение: 1920x1080 Диапазоны цифрового тюнера: DVB-C DVB-T Подробнее →</string>
+    </void>
+    <void property="name">
+     <string>Samsung UE-22F5000 + Transcend JetFlash 700 16GB (TS16GJF700)</string>
+    </void>
+    <void property="price">
+     <int>2222</int>
+    </void>
+    <void property="type">
+     <string>all-tv</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
