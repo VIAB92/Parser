@@ -1,5 +1,7 @@
 package com.netcracker.training.app4.productparser;
 
+import com.netcracker.training.app4.entity.Product;
+
 import java.io.IOException;
 import java.util.List;
 
@@ -7,9 +9,7 @@ import java.util.List;
  * @VIAB
  */
 public interface ProductParser {
-    public void parseProducts() throws IOException, ProductNotFoundException;
-    public List<String> getProductNames();
-    public List<String> getProductDetails();
-    public List<Integer> getProductPrices();
+    public List<Product> parseProducts() throws IOException, ProductNotFoundException, IncorrectListSizeException;
+    public void setProductType(String productType);
 
 }

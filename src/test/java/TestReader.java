@@ -20,13 +20,13 @@ public class TestReader {
 
     @Test
     public void testReaderWithCorrectPath() throws FileNotFoundException {
-        List<String> urls = textFileReader.readFromPath("url.txt");
+        List<String> urls = textFileReader.readFile("url.txt");
         Assert.assertEquals("Error - urls list is not valid", 3, urls.size());
     }
 
     @Test(expected = FileNotFoundException.class)
     public void testReaderWithIncorrectPath() throws FileNotFoundException {
-        List<String> urls = textFileReader.readFromPath("trololo");
+        List<String> urls = textFileReader.readFile("trololo");
 
     }
 }

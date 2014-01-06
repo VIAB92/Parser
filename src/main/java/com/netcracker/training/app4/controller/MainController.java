@@ -2,7 +2,7 @@ package com.netcracker.training.app4.controller;
 
 import com.netcracker.training.app4.db.logic.*;
 import com.netcracker.training.app4.db.manager.*;
-import com.netcracker.training.app4.manager.IncorrectListSizeException;
+import com.netcracker.training.app4.productparser.IncorrectListSizeException;
 import com.netcracker.training.app4.productparser.*;
 import com.netcracker.training.app4.property.*;
 import com.netcracker.training.app4.reader.*;
@@ -34,9 +34,9 @@ public class MainController {
 
     public void loadUrls()
     {
-        Reader reader = new TextFileReader();
+        TextFileReader reader = new TextFileReader();
         try {
-            urls = reader.readFromPath(FILE_NAME);
+            urls = reader.readFile(FILE_NAME);
         } catch (FileNotFoundException e) {
             logger.error("URL file not found", e);
             System.exit(1);

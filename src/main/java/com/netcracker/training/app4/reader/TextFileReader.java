@@ -9,10 +9,9 @@ import java.util.Scanner;
 /**
  * @VIAB
  */
-public class TextFileReader implements Reader {
+public class TextFileReader {
 
-    @Override
-    public List<String> readFromPath(String path) throws FileNotFoundException {
+   public List<String> readFile(String path) throws FileNotFoundException {
         List<String> urls = new ArrayList<String>();
         Scanner in = new Scanner(new File(path));
         while (in.hasNext())

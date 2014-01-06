@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_45" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="com.netcracker.training.app4.entity.Product">
+    <void property="details">
+     <string>Экран 15.6&apos;&apos; (1366x768) HD LED, глянцевый / Intel Pentium 2117U (1.8 ГГц) / RAM 4 ГБ / HDD 500 ГБ / nVidia GeForce GT 720M, 1 ГБ / DVD Super Multi / LAN / Wi-Fi / Bluetooth / веб-камера / Linux / 2.35 кг / черный Подробнее →</string>
+    </void>
+    <void property="name">
+     <string>Acer Aspire E1-530G-21174G50Mnkk (NX.MEUEU.011) Суперцена!</string>
+    </void>
+    <void property="price">
+     <int>3333</int>
+    </void>
+    <void property="type">
+     <string>notebooks</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.netcracker.training.app4.entity.Product">
+    <void property="details">
+     <string>Экран 15.6&quot; (1366x768) HD LED, глянцевый / Intel Core i3-3110M (2.4 ГГц) / RAM 4 ГБ / HDD 750 ГБ / nVidia GeForce GT 740M, 2 ГБ / DVD Super Multi / LAN / Wi-Fi / Bluetooth / веб-камера / DOS / 2.3 кг / серебристый Подробнее →</string>
+    </void>
+    <void property="name">
+     <string>Asus X550VB (X550VB-XX019D) Dark Gray</string>
+    </void>
+    <void property="price">
+     <int>4699</int>
+    </void>
+    <void property="type">
+     <string>notebooks</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.netcracker.training.app4.entity.Product">
+    <void property="details">
+     <string>Экран 15.6” (1366x768) HD LED, глянцевый / AMD Dual-Core A6-4400M (2.7-3.2 ГГц) / RAM 4 ГБ / HDD 500 ГБ / AMD Radeon HD 7520G + AMD Radeon HD 7670M, 1 ГБ / DVD Super Multi / LAN / Bluetooth / Wi-Fi / веб-камера / DOS / 2.48 кг / черный Подробнее →</string>
+    </void>
+    <void property="name">
+     <string>HP Pavilion g6-2349sr (E3C65EA) Black Metallic Суперцена!</string>
+    </void>
+    <void property="price">
+     <int>3499</int>
+    </void>
+    <void property="type">
+     <string>notebooks</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.netcracker.training.app4.entity.Product">
+    <void property="details">
+     <string>Экран 15.6&quot; (1366x768) HD LED, матовый / Intel Pentium B980 (2.4 ГГц) / RAM 4 ГБ / HDD 750 ГБ / AMD Radeon HD7650M, 2 ГБ / DVD+/-RW / LAN / Wi-Fi / Bluetooth 4.0 / веб-камера / Linux / 2.33 кг / серебристый + сумка Подробнее →</string>
+    </void>
+    <void property="name">
+     <string>HP ProBook 4540s (H4R02ES) + Сумка HP!</string>
+    </void>
+    <void property="price">
+     <int>3899</int>
+    </void>
+    <void property="type">
+     <string>notebooks</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.netcracker.training.app4.entity.Product">
+    <void property="details">
+     <string>Экран 15.6&apos;&apos; (1366x768) HD LED, матовый / Intel Core i3-3110M (2.4 ГГц) / RAM 4 ГБ / HDD 500 ГБ / NVIDIA GeForce 710M, 2 ГБ / DVD Super Multi / LAN / Wi-Fi / веб-камера / Linux / 2.45 кг / черный Подробнее →</string>
+    </void>
+    <void property="name">
+     <string>Acer Aspire E1-571G-33114G50MNKS (NX.M7CEU.033) + внешний жесткий диск 500 ГБ!</string>
+    </void>
+    <void property="price">
+     <int>4299</int>
+    </void>
+    <void property="type">
+     <string>notebooks</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

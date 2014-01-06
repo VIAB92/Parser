@@ -1,4 +1,4 @@
-package com.netcracker.training.app4.manager;
+package com.netcracker.training.app4.productparser;
 
 /**
  * @VIAB

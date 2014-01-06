@@ -3,8 +3,7 @@ package com.netcracker.training.app4.controller;
 import com.netcracker.training.app4.db.logic.DBLogic;
 import com.netcracker.training.app4.db.manager.DBException;
 import com.netcracker.training.app4.entity.Product;
-import com.netcracker.training.app4.manager.IncorrectListSizeException;
-import com.netcracker.training.app4.manager.ProductManager;
+import com.netcracker.training.app4.productparser.IncorrectListSizeException;
 import com.netcracker.training.app4.productparser.ProductNotFoundException;
 import com.netcracker.training.app4.productparser.ProductParser;
 import com.netcracker.training.app4.saver.ProductSaver;
@@ -25,7 +24,7 @@ public class ParserController {
     private UrlParser urlParser;
     private ProductParser productParser;
     private DBLogic dbLogic;
-    private ProductManager productManager;
+
 
     public ParserController(UrlParser urlParser, ProductParser productParser, DBLogic dbLogic)
     {
@@ -37,9 +36,8 @@ public class ParserController {
     public void parseProducts() throws IncorrectListSizeException, IOException, ProductNotFoundException, DBException {
         urlParser.parseType(PARSER_FLAG);
         String productType = urlParser.getProductType();
-        productManager = new ProductManager(productParser, productType);
-        productManager.makeProducts();
-        List<Product> productList = productManager.getProducts();
+        productParser.setProductType(productType);
+        List<Product> productList = productParser.parseProducts();
         logger.info("Продукция со страницы получена: "+productList.size());
         writeProductToDb(productList);
         logger.info("Продукция записана в базу данных");

@@ -13,7 +13,7 @@ import java.io.IOException;
  */
 public class Program {
     Logger logger = Logger.getLogger(Program.class);
-    public static void main(String[] args) throws DBException, ProductNotFoundException, IOException {
+    public static void main(String[] args) {
         BasicConfigurator.configure();
 
         MainController controller = new MainController();
